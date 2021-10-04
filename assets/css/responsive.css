@@ -1,0 +1,87 @@
+/* Tablet and Mobile */
+
+@media (max-width: 1023px) {
+    .header-navbar {
+        display: none;
+    }
+
+    .header-menu__btn {
+        display: none;
+    }
+
+    .header-mobile-menu__btn {
+        display: block;
+    }
+
+    .header__logo {
+        width: 100%;
+        text-align: center  ;
+    }
+
+    .navbar-wrap {
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px 0 20px;
+    }
+
+    .header-mobile-menu__btn {
+        padding-top: 16px;
+    }
+
+    .search__typologies-place {
+        flex-wrap: wrap;
+    }
+
+    .search__typology-place-item {
+        width: 100%;
+    }
+
+    .travel-desc__item {
+        margin-bottom: 20px;
+    }
+
+    .countdown {
+        width: 100%;
+    }
+
+    .footer__form {
+        margin-top: 60px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .footer__input-email {
+        width: 70%;
+    }
+
+    .footer__send-btn {
+        width: 20%;
+    }
+}
+
+/* Mobile */
+
+@media (max-width: 739px) {
+    .best-place-slider__img {
+        height: 100%;
+    }
+
+    .countdown {
+        z-index: 10;
+        transform: translateX(0);
+        position: unset;
+    }
+
+    .countdown__item {
+        flex-basis: 100%;
+    }
+
+    .footer__input-email {
+        width: 100%;
+    }
+
+    .footer__send-btn {
+        width: 100%;
+    }
+}

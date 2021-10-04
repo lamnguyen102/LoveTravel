@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="main">
+        <!-- Start: Header -->
+        <div class="header" id="home">
+            <div class="header__overlay"></div>
+            <div class="navbar-wrap">
+                <div class="header__logo">
+                    <a href="/" class="header__logo-link">
+                        <img src="./assets/img/logo.png" alt="" class="header__logo-img">
+                    </a>
+                </div>
+                <!-- Navbar -->
+                <nav class="header-navbar">
+                    <ul class="header-navbar__list">
+                        <li class="header-navbar__item">
+                            <a class="header-navbar__item-link" href="\">Home</a>
+                        </li>
+                        <li class="header-navbar__item">
+                            <a class="header-navbar__item-link" href="#">Packages</a>
+                            <ul class="header-subnav__list">
+                                <li class="header-subnav__item"><a href="" class="header-subnav__item-link">Search 1 <span class="selection selection-hot">HOT</span></a></li>
+                                <li class="header-subnav__item"><a href="" class="header-subnav__item-link">Search 2</a></li>
+                                <li class="header-subnav__item header-subnav__item--has-subnav">
+                                    <a href="" class="header-subnav__item-link">Tour Package</a>
+                                    <ul class="header-subnav__list-secondary">
+                                        <li class="header-subnav__item-secondary"><a href="" class="header-subnav__item-link-secondary">Carousel <span class="selection selection-best">BEST</span></li>
+                                        <li class="header-subnav__item-secondary"><a href="" class="header-subnav__item-link-secondary">Custom Map</a></li>
+                                        <li class="header-subnav__item-secondary"><a href="" class="header-subnav__item-link-secondary">360° Panorama</a></li>
+                                        <li class="header-subnav__item-secondary"><a href="" class="header-subnav__item-link-secondary">Default</a></li>
+                                    </ul>
+                                </li>
+                                <li class="header-subnav__item"><a href="" class="header-subnav__item-link">Destination</a></li>
+                                <li class="header-subnav__item"><a href="" class="header-subnav__item-link">Typology</a></li>
+                            </ul>
+                        </li>
+                        <li class="header-navbar__item">
+                            <a class="header-navbar__item-link" href="#">Shop</a>
+                            <ul class="header-subnav__list">
+                                <li class="header-subnav__item"><a href="" class="header-subnav__item-link">Archive</li>
+                                <li class="header-subnav__item"><a href="" class="header-subnav__item-link">Sigle Product</a></li>
+                                <li class="header-subnav__item"><a href="" class="header-subnav__item-link">Cart</a></li>
+                                <li class="header-subnav__item"><a href="" class="header-subnav__item-link">Checkout</a></li>
+                            </ul>
+                        </li>
+                        <li class="header-navbar__item">
+                            <a class="header-navbar__item-link" href="#">About us</a>
+                            <ul class="header-subnav__list">
+                                <li class="header-subnav__item"><a href="" class="header-subnav__item-link">About Us 1 <span class="selection selection-new">NEW</span></a></li>
+                                <li class="header-subnav__item"><a href="" class="header-subnav__item-link">About Us 2</a></li>
+                                <li class="header-subnav__item"><a href="" class="header-subnav__item-link">About Us 3</a></li>
+                            </ul>
+                        </li>
+                        <li class="header-navbar__item">
+                            <a class="header-navbar__item-link" href="#">Pages</a>
+                            <ul class="header-subnav__list">
+                                <li class="header-subnav__item"><a href="" class="header-subnav__item-link">Services</a></li>
+                                <li class="header-subnav__item"><a href="" class="header-subnav__item-link">Agency Tours</a></li>
+                                <li class="header-subnav__item"><a href="" class="header-subnav__item-link">Testimonials</a></li>
+                                <li class="header-subnav__item"><a href="" class="header-subnav__item-link">Prices</a></li>
+                                <li class="header-subnav__item"><a href="" class="header-subnav__item-link">Promotions</a></li>
+                                <li class="header-subnav__item"><a href="" class="header-subnav__item-link">Faq</a></li>
+                                <li class="header-subnav__item"><a href="" class="header-subnav__item-link">Coming Soon</a></li>
+                                <li class="header-subnav__item header-subnav__item--has-subnav">
+                                    <a href="" class="header-subnav__item-link">About Us</a>
+                                    <ul class="header-subnav__list-secondary">
+                                        <li class="header-subnav__item-secondary"><a href="" class="header-subnav__item-link-secondary">About Us 1</a></li>
+                                        <li class="header-subnav__item-secondary"><a href="" class="header-subnav__item-link-secondary">About Us 2</a></li>
+                                        <li class="header-subnav__item-secondary"><a href="" class="header-subnav__item-link-secondary">About Us 3</a></li>
+                                    </ul>
+                                </li>
+                                <li class="header-subnav__item header-subnav__item--has-subnav">
+                                    <a href="" class="header-subnav__item-link">Contact</a>
+                                    <ul class="header-subnav__list-secondary">
+                                        <li class="header-subnav__item-secondary"><a href="" class="header-subnav__item-link-secondary">Contact 1</a></li>
+                                        <li class="header-subnav__item-secondary"><a href="" class="header-subnav__item-link-secondary">Contact 2</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="header-navbar__item">
+                            <a class="header-navbar__item-link" href="#">News</a>
+                            <ul class="header-subnav__list">
+                                <li class="header-subnav__item"><a href="" class="header-subnav__item-link">Archive</a></li>
+                                <li class="header-subnav__item header-subnav__item--has-subnav">
+                                    <a href="" class="header-subnav__item-link">Single Post</a>
+                                    <ul class="header-subnav__list-secondary">
+                                        <li class="header-subnav__item-secondary"><a href="" class="header-subnav__item-link-secondary">Full Width</a></li>
+                                        <li class="header-subnav__item-secondary"><a href="" class="header-subnav__item-link-secondary">Right Sidebar</a></li>
+                                        <li class="header-subnav__item-secondary"><a href="" class="header-subnav__item-link-secondary">Left Sidebar</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="header-navbar__item">
+                            <a class="header-navbar__item-link" href="#">Contact</a>
+                            <ul class="header-subnav__list">
+                                <li class="header-subnav__item"><a href="" class="header-subnav__item-link">Contact 1</a></li>
+                                <li class="header-subnav__item"><a href="" class="header-subnav__item-link">Contact 2</a></li>
+                            </ul>
+                        </li>
+                        <li class="header-navbar__item"><a class="header-navbar__item-link header-navbar__item-link--booking" href="#">Book now</a></li>
+                    </ul>
+                </nav>
+                <div class="header-menu__btn">
+                    <img src="./assets/img/menu.png" alt="" class="header-menu__icon">
+                </div>
+                <div class="header-mobile-menu__btn">
+                    <img src="./assets/img/menu.png" alt="" class="header-menu__icon">
+                </div>
+            </div>
+            <div class="header-menu">
+                <img src="./assets/img/error.png" alt="" class="header-menu__close-icon">
+                <div class="header-menu__content">
+                    <div class="header-menu__title">
+                        <h3 class="header-menu__first-heading">BEST</h3>
+                        <h2 class="header-menu__second-heading"><span>PACKAGES</span></h2>
+                    </div>
+                    <ul class="header-menu__packages-list">
+                        <li class="header-menu__package-item">
+                            <img src="./assets/img/packages/package-1-1024x640.jpg" alt="" class="header-menu__package-img">
+                            <div class="header-menu__package-infor">
+                                <a href="" class="header-menu__package-location">
+                                    <h5>Berlin</h5>
+                                    <span>
+                                        <img src="./assets/img/icon-pin-grey.png" alt="" class="location-pin-icon">
+                                        <h6>Europe</h6>
+                                    </span>
+                                </a>
+                                <a href="" class="header-menu__package-price linear-gradient--yellow">FROM 700 <span>$</span></a>
+                            </div>
+                        </li>
+                        <li class="header-menu__package-item">
+                            <img src="./assets/img/packages/package-6-1024x640.jpg" alt="" class="header-menu__package-img">
+                            <div class="header-menu__package-infor">
+                                <a href="" class="header-menu__package-location">
+                                    <h5>Hong Kong</h5>
+                                    <span>
+                                        <img src="./assets/img/icon-pin-grey.png" alt="" class="location-pin-icon">
+                                        <h6>Asia</h6>
+                                    </span>
+                                </a>
+                                <a href="" class="header-menu__package-price linear-gradient--red">FROM 700 <span>$</span></a>
+                            </div>
+                        </li>
+                        <li class="header-menu__package-item">
+                            <img src="./assets/img/packages/package-2-1024x640.jpg" alt="" class="header-menu__package-img">
+                            <div class="header-menu__package-infor">
+                                <a href="" class="header-menu__package-location">
+                                    <h5>San Francisco   </h5>
+                                    <span>
+                                        <img src="./assets/img/icon-pin-grey.png" alt="" class="location-pin-icon">
+                                        <h6>United States</h6>
+                                    </span>
+                                </a>
+                                <a href="" class="header-menu__package-price linear-gradient--violet">FROM 700 <span>$</span></a>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="header-menu__package-destination">
+                        <div class="l-12 proposal-item">
+                            <div class="proposal-item__content">
+                                <img src="http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/04/destination-9.jpg" alt="" class="proposal-item__img">
+                                <div class="propsal-item__place-info">
+                                    <h3 class="propsal-item__place-heading">Europe</h3>
+                                    <p class="propsal-item__package-quantity">3 PACKAGES</p>
+                                </div>
+                                <div class="propsal-item__icon">
+                                    <img src="http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/arch.png" alt="" width="30px">
+                                </div>
+                                <div class="proposal-item__hover">
+                                    <h3 class="proposal-item__hover-heading">Packages</h3>
+                                    <a href="" class="proposal-item__hover-packet-link">Berlin</a>
+                                    <a href="" class="proposal-item__hover-packet-link">Amsterdam</a>
+                                    <a href="" class="proposal-item__hover-packet-link">Tuscany</a>
+                                    <a href="" class="proposal-item__hover-btn">VIEW DESTINATION</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="header-menu__title header-menu__title--second">
+                        <h3 class="header-menu__first-heading">BEST</h3>
+                        <h2 class="header-menu__second-heading"><span>PACKAGES</span></h2>
+                    </div>
+                    <ul class="header-menu__packages-list">
+                        <li class="header-menu__package-item">
+                            <img src="./assets/img/packages/package-1-1024x640.jpg" alt="" class="header-menu__package-img">
+                            <div class="header-menu__package-infor">
+                                <a href="" class="header-menu__package-location">
+                                    <h5>Berlin</h5>
+                                    <span>
+                                        <img src="./assets/img/icon-pin-grey.png" alt="" class="location-pin-icon">
+                                        <h6>Europe</h6>
+                                    </span>
+                                </a>
+                                <a href="" class="header-menu__package-price linear-gradient--yellow">FROM 700 <span>$</span></a>
+                            </div>
+                        </li>
+                        <li class="header-menu__package-item">
+                            <img src="./assets/img/packages/package-6-1024x640.jpg" alt="" class="header-menu__package-img">
+                            <div class="header-menu__package-infor">
+                                <a href="" class="header-menu__package-location">
+                                    <h5>Hong Kong</h5>
+                                    <span>
+                                        <img src="./assets/img/icon-pin-grey.png" alt="" class="location-pin-icon">
+                                        <h6>Asia</h6>
+                                    </span>
+                                </a>
+                                <a href="" class="header-menu__package-price linear-gradient--red">FROM 700 <span>$</span></a>
+                            </div>
+                        </li>
+                        <li class="header-menu__package-item">
+                            <img src="./assets/img/packages/package-2-1024x640.jpg" alt="" class="header-menu__package-img">
+                            <div class="header-menu__package-infor">
+                                <a href="" class="header-menu__package-location">
+                                    <h5>San Francisco   </h5>
+                                    <span>
+                                        <img src="./assets/img/icon-pin-grey.png" alt="" class="location-pin-icon">
+                                        <h6>United States</h6>
+                                    </span>
+                                </a>
+                                <a href="" class="header-menu__package-price linear-gradient--violet">FROM 700 <span>$</span></a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mobile-menu">
+                
+            </div>
+            <!-- Begin: Search -->
+            <div class="search-wrap">
+                <div class="search">
+                    <div class="grid wide">
+                        <div class="col">
+                            <div class="search__title">
+                                <h1 class="search__heading">Search your next <u class="u-violet-color">Holiday</u></h1>
+                                <h2 class="search-sub-heading">CHECK OUR BEST PROMOTIONS</h2>
+                            </div>
+                
+                            <div class="search__form-wrapper">
+                                <form action="" class="search-form">
+                                    <select name="Place" id="" class="search__select">
+                                        <option value="0">Choose your Destination</option>
+                                        <option value="1">Europe</option>
+                                        <option value="2"> - Italy</option>
+                                        <option value="3"> - Netherlands</option>
+                                        <option value="4">Asia</option>
+                                        <option value="5"> - ThaiLandia</option>
+                                        <option value="6">United States</option>
+                                        <option value="7">Oceania</option>
+                                    </select>
+                                    <a href="" class="search-btn">
+                                        <i class="search-btn-icon fas fa-search"></i>
+                                    </a>
+                                </form>
+                                
+                            </div>
+                            <ul class="search__typologies-place">
+                                <li class="search__typology-place-item">
+                                    <a href="">
+                                        <img src="./assets/img/typolies-place/t-relax.png" alt="" class="search__typologies-place-img">
+                                        <span class="search__typologies-place-name">RELAX</span>
+                                    </a>
+                                </li>
+                                <li class="search__typology-place-item">
+                                    <a href="">
+                                        <img src="./assets/img/typolies-place/t-cultural.png" alt="" class="search__typologies-place-img">
+                                        <span class="search__typologies-place-name">CULTURAL</span>
+                                    </a>
+                                </li>
+                                <li class="search__typology-place-item">
+                                    <a href="">
+                                        <img src="./assets/img/typolies-place/t-sport.png" alt="" class="search__typologies-place-img">
+                                        <span class="search__typologies-place-name">SPORT</span>
+                                    </a>
+                                </li>
+                                <li class="search__typology-place-item">
+                                    <a href="">
+                                        <img src="./assets/img/typolies-place/t-history.png" alt="" class="search__typologies-place-img">
+                                        <span class="search__typologies-place-name">HISTORY</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End: Search -->
+        </div>
+        <!-- End: Header -->
+
+        <!-- Menu -->
+        <div class="container">
+            
+            <!-- Prosal -->
+            <div class="proposal mt-60">
+                <div class="grid wide">
+                    <div class="proposal-title section-title">
+                        <h3 class="proposal-heading section-heading">OUR PROPOSALS</h3>
+                        <h2 class="proposal-sub-heading section-sub-heading">OUR <u class="u-green-color">DESTINATIONS</u></h2>
+                    </div>
+                    <div class="proposals-list">
+                        <div class="row">
+                            <div class="col l-4 m-12 c-12 proposal-item">
+                                <div class="proposal-item__content">
+                                    <img src="http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/04/destination-9.jpg" alt="" class="proposal-item__img">
+                                    <div class="propsal-item__place-info">
+                                        <h3 class="propsal-item__place-heading">Europe</h3>
+                                        <p class="propsal-item__package-quantity">3 PACKAGES</p>
+                                    </div>
+                                    <div class="propsal-item__icon">
+                                        <img src="http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/arch.png" alt="" width="30px">
+                                    </div>
+                                    <div class="proposal-item__hover">
+                                        <h3 class="proposal-item__hover-heading">Packages</h3>
+                                        <a href="" class="proposal-item__hover-packet-link">Berlin</a>
+                                        <a href="" class="proposal-item__hover-packet-link">Amsterdam</a>
+                                        <a href="" class="proposal-item__hover-packet-link">Tuscany</a>
+                                        <a href="" href="" class="proposal-item__hover-btn">VIEW DESTINATION</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-4 m-12 c-12 proposal-item">
+                                <div class="proposal-item__content">
+                                    <img src="http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/destination-5-720x720.jpg" alt="" class="proposal-item__img">
+                                    <div class="propsal-item__place-info">
+                                        <h3 class="propsal-item__place-heading">Thailandia</h3>
+                                        <p class="propsal-item__package-quantity">1 PACKAGES</p>
+                                    </div>
+                                    <div class="propsal-item__icon">
+                                        <img src="http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/buddha.png" alt="" width="30px">
+                                    </div>
+                                    <div class="proposal-item__hover">
+                                        <h3 class="proposal-item__hover-heading">Packages</h3>
+                                        <a href="" class="proposal-item__hover-packet-link">Phuket</a>
+                                        <a href="" href="" class="proposal-item__hover-btn">VIEW DESTINATION</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-4 m-12 c-12 proposal-item">
+                                <div class="proposal-item__content">
+                                    <img src="http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/03/destination-8.jpg" alt="" class="proposal-item__img">
+                                    <div class="propsal-item__place-info">
+                                        <h3 class="propsal-item__place-heading">Asia</h3>
+                                        <p class="propsal-item__package-quantity">2 PACKAGES</p>
+                                    </div>
+                                    <div class="propsal-item__icon">
+                                        <img src="http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/torii-gate.png" alt="" width="30px">
+                                    </div>
+                                    <div class="proposal-item__hover">
+                                        <h3 class="proposal-item__hover-heading">Packages</h3>
+                                        <a href="" class="proposal-item__hover-packet-link">Hong Kong</a>
+                                        <a href="" class="proposal-item__hover-packet-link">Phuket</a>
+                                        <a href="" href="" class="proposal-item__hover-btn">VIEW DESTINATION</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-4 m-12 c-12 proposal-item">
+                                <div class="proposal-item__content">
+                                    <img src="http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/03/destination-10.jpg" alt="" class="proposal-item__img">
+                                    <div class="propsal-item__place-info">
+                                        <h3 class="propsal-item__place-heading">Italy</h3>
+                                        <p class="propsal-item__package-quantity">1 PACKAGES</p>
+                                    </div>
+                                    <div class="propsal-item__icon">
+                                        <img src="http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/pisa.png" alt="" width="30px">
+                                    </div>
+                                    <div class="proposal-item__hover">
+                                        <h3 class="proposal-item__hover-heading">Packages</h3>
+                                        <a href="" class="proposal-item__hover-packet-link">Tuscany</a>
+                                        <a href="" href="" class="proposal-item__hover-btn">VIEW DESTINATION</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-4 m-12 c-12 proposal-item">
+                                <div class="proposal-item__content">
+                                    <img src="http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/03/destination-11.jpg" alt="" class="proposal-item__img">
+                                    <div class="propsal-item__place-info">
+                                        <h3 class="propsal-item__place-heading">Netherlands</h3>
+                                        <p class="propsal-item__package-quantity">1 PACKAGES</p>
+                                    </div>
+                                    <div class="propsal-item__icon">
+                                        <img src="http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/london-eye.png" alt="" width="30px">
+                                    </div>
+                                    <div class="proposal-item__hover">
+                                        <h3 class="proposal-item__hover-heading">Packages</h3>
+                                        <a href="" class="proposal-item__hover-packet-link">Amsterdam</a>
+                                        <a href="" href="" class="proposal-item__hover-btn">VIEW DESTINATION</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-4 m-12 c-12 proposal-item">
+                                <div class="proposal-item__content">
+                                    <img src="http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/03/destination-1-1-720x720.jpg" alt="" class="proposal-item__img">
+                                    <div class="propsal-item__place-info">
+                                        <h3 class="propsal-item__place-heading">United States</h3>
+                                        <p class="propsal-item__package-quantity">1 PACKAGES</p>
+                                    </div>
+                                    <div class="propsal-item__icon">
+                                        <img src="http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/golden-gate.png" alt="" width="30px">
+                                    </div>
+                                    <div class="proposal-item__hover">
+                                        <h3 class="proposal-item__hover-heading">Packages</h3>
+                                        <a href="" class="proposal-item__hover-packet-link">San Francisco</a>
+                                        <a href="" href="" class="proposal-item__hover-btn">VIEW DESTINATION</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Packet banner -->
+            <div class="packet-banner mt-60">
+                <div class="grid wide">
+                   <div class="packet-banner__content">
+                        <div class="row">
+                            <div class="col l-4 l-o-2">
+                                <div class="packet-banner__title">
+                                    <h1 class="packet-banner__first-heading">Your</h1>
+                                <h1 class="packet-banner__last-heading">Next <u class="u-red-color">Holiday</u></h1>
+                                </div>
+                            </div>
+                            <div class="col l-4">
+                                <div class="packet-banner__btn">
+                                    <a href="#home" class="col-6 btn packet-banner__btn-link">VIEW ALL PACKAGES</a>
+                                </div>
+                            </div>
+                        </div>
+                   </div>
+                </div>
+            </div>
+
+            <!-- Best place -->
+            <div class="best-place mt-60">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-4 m-12 c-12">
+                            <div class="best-place__content">
+                                <div class="best-place__title section-title">
+                                    <h3 class="best-place-heading section-heading">NORTH AMERICA</h3>
+                                    <h2 class="best-place-sub-heading section-sub-heading">The Best <u class="u-blue-color">Beaches</u></h2>
+                                </div>
+                                <div class="best-place__desc">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adip iscing elit. Proin rhoncus urna dictum neque molestie ultricies mauris ac
+                                    </p>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adip iscing elit. Proin rhoncus urna dictum neque molestie ultricies mauris ac.
+                                    </p>
+                                </div>
+                                <h1 class="best-place__price">
+                                    <span class="old-price">800</span> 500 $ <span class="price-desc">/ FOR PERSON</span>
+                                </h1>
+                                <a href="" class="best-place__book-btn btn">BOOK NOW</a>
+                            </div>
+                        </div>
+                        <div class="col l-8 m-12 c-12">
+                            <div class="best-place-slider">
+                                <div class="best-place-slider__img-wrapper">
+                                    <div class="slider-img__wrap">
+                                        <img src="http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/package-3.jpg" alt="Beaches" class="best-place-slider__img best-place-slider__img--active">
+                                        <img src="http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/parallax-4.jpg" alt="Beaches" class="best-place-slider__img">
+                                        <img src="http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/parallax-4-1.jpg" alt="Beaches" class="best-place-slider__img">
+                                    </div>
+                                    <div class="slider-bar">
+                                        <div class="slider-btn slider-btn--active">
+                                        </div>
+                                        <div class="slider-btn">
+                                        </div>
+                                        <div class="slider-btn">
+                                        </div>
+                                    </div>
+                                    <div class="countdown">
+                                        <div class="countdown__item">
+                                            <h1 class="countdown__item-quantity">000</h1>
+                                            <h2 class="countdown__item-unit">DAYS</h2>
+                                        </div>
+                                        <div class="countdown__item">
+                                            <h1 class="countdown__item-quantity">00</h1>
+                                            <h2 class="countdown__item-unit">HOURS</h2>
+                                        </div>
+                                        <div class="countdown__item">
+                                            <h1 class="countdown__item-quantity">00</h1>
+                                            <h2 class="countdown__item-unit">MINUTES</h2>
+                                        </div>
+                                        <div class="countdown__item">
+                                            <h1 class="countdown__item-quantity">00</h1>
+                                            <h2 class="countdown__item-unit">SECONDS</h2>
+                                        </div>
+                                    </div>
+                                    <div style="width: 100%; height: 60px;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-40">
+                        <div class="col l-4 m-12 c-12">
+                            <div class="travel-desc__item">
+                                <img src="./assets/img/travel-desc/icon-around.png" alt="" class="travel-desc__item-img">
+                                <div class="travel-desc__item-text">
+                                    <h1>World Tour</h1>
+                                    <p>Lorem ipsum dolor sit amet conse ctetur adip iscing elit Proin rhonc us urna dictum.</p>
+                                    <a href="" class="view-more">
+                                        View More
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-12 c-12">
+                            <div class="travel-desc__item">
+                                <img src="./assets/img/travel-desc/icon-boat.png" alt="" class="travel-desc__item-img">
+                                <div class="travel-desc__item-text">
+                                    <h1>World Tour</h1>
+                                    <p>Lorem ipsum dolor sit amet conse ctetur adip iscing elit Proin rhonc us urna dictum.</p>
+                                    <a href="" class="view-more">
+                                        View More
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-12 c-12">
+                            <div class="travel-desc__item">
+                                <img src="./assets/img/travel-desc/icon-landmark.png" alt="" class="travel-desc__item-img">
+                                <div class="travel-desc__item-text">
+                                    <h1>World Tour</h1>
+                                    <p>Lorem ipsum dolor sit amet conse ctetur adip iscing elit Proin rhonc us urna dictum.</p>
+                                    <a href="" class="view-more">
+                                        View More
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Discover banner -->
+            <div class="discover-banner mt-75">
+                <div class="row no-gutters">
+                    <div class="col l-6 m-12 c-12">
+                        <div class="discover-banner__content discover-banner__content--left">
+                            <h3 class="discover-banner__sub-heading">01. LAST MINUTE</h3>
+                            <h2 class="discover-banner__heading">Discover Cities</h2>
+                            <a href="" class="discover-banner__details-btn btn mt-40">DETAILS</a>
+                        </div>
+                    </div>
+                    <div class="col l-6 m-12 c-12">
+                        <div class="discover-banner__content discover-banner__content--right">
+                            <h3 class="discover-banner__sub-heading">02. PROMOTIONS</h3>
+                            <h2 class="discover-banner__heading">Discover Nature</h2>
+                            <a href="" class="discover-banner__details-btn btn mt-40 text-color-green">DETAILS</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Promotions -->
+            <div class="promotion mt-60 mb-60">
+                <div class="grid wide">
+                    <div class="promotion-title section-title">
+                        <h3 class="promotion-heading section-heading">OUR PROMOTION</h3>
+                        <h2 class="promotion-sub-heading section-sub-heading">OUR <u class="u-green-color">PACKAGES</u></h2>
+                    </div>
+                    <div class="promotion-packages">
+                        <div class="row">
+                            <div class="col l-4 m-12 c-12">
+                                <div class="promotion__item item-padding-15">
+                                    <div class="promotion__item-img">
+                                        <img src="./assets/img/packages/package-1-1024x640.jpg" alt="" class="promotion__item-img-main">
+                                        <a href="" class="promotion__item-icon-link promotion__item-icon-link--yellow"><img src="http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/arch.png" alt="" class="promotion__item-icon"></a>
+                                    </div>
+                                    <div class="promotion__item-infor">
+                                        <h3 class="promotion__item-place">Berlin</h3>
+                                        <a href="" class="promotion__item-location">
+                                            <img class="location-pin-icon" src="./assets/img/icon-pin-grey.png" alt="">
+                                            <h5>
+                                                Europe
+                                            </h5>
+                                        </a>
+                                        <div class="promotion__item-tag">
+                                            <div class="promotion__item-tag-links">
+                                                <a href="" class="promotion__item-tag-link">CULTURAL</a>
+                                                <div class="promotion__item-tag-with-count">
+                                                    <a href="" class="promotion__item-tag-link">RELAX </a>
+                                                    <span class="background-color-yellow">
+                                                        + 1
+                                                        <div class="promotion__typology-dropdown">
+                                                            <div class="triangle-typology"></div>
+                                                            <a href="" class="promotion__typology-doropdown-link">Sport</a>
+                                                        </div>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <h2 class="promotion__item-tag-price">
+                                                <span>700</span>
+                                                <span>$</span>
+                                            </h2>
+                                        </div>
+                                        <div class="promotion__item-preview">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut efficitur ante. Donec dapibus dictum scelerisque.</p>
+                                        </div>
+                                        <a href="" class="promoiton__details-btn background-color-yellow">DETAILS</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-4 m-12 c-12">
+                                <div class="promotion__item item-padding-15">
+                                    <div class="promotion__item-img">
+                                        <a href="" class="promotion__item-sale-tag">SALE</a>
+                                        <img src="./assets/img/packages/package-6-1024x640.jpg" alt="" class="promotion__item-img-main">
+                                        <a href="" class="promotion__item-icon-link promotion__item-icon-link--red"><img src="http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/torii-gate.png" alt="" class="promotion__item-icon"></a>
+                                    </div>
+                                    <div class="promotion__item-infor">
+                                        <h3 class="promotion__item-place">Hong Kong</h3>
+                                        <a href="" class="promotion__item-location">
+                                            <img class="location-pin-icon" src="./assets/img/icon-pin-grey.png" alt="">
+                                            <h5>
+                                                Asia
+                                            </h5>
+                                        </a>
+                                        <div class="promotion__item-tag">
+                                            <div class="promotion__item-tag-links">
+                                                <a href="" class="promotion__item-tag-link">HISTORY</a>
+                                                <div class="promotion__item-tag-with-count">
+                                                    <a href="" class="promotion__item-tag-link">CULTURAL</a>
+                                                    <span class="background-color-red">
+                                                        + 1
+                                                        <div class="promotion__typology-dropdown">
+                                                            <div class="triangle-typology"></div>
+                                                            <a href="" class="promotion__typology-doropdown-link">Sport</a>
+                                                        </div>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <h2 class="promotion__item-tag-price">
+                                                <span class="promotion__item-tag-price-old">1000</span>
+                                                <span>500</span>
+                                                <span>$</span>
+                                            </h2>
+                                        </div>
+                                        <div class="promotion__item-preview">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut efficitur ante. Donec dapibus dictum scelerisque.</p>
+                                        </div>
+                                        <a href="" class="promoiton__details-btn background-color-red">DETAILS</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-4 m-12 c-12">
+                                <div class="promotion__item item-padding-15">
+                                    <div class="promotion__item-img">
+                                        <img src="./assets/img/packages/package-2-1024x640.jpg" alt="" class="promotion__item-img-main">
+                                        <a href="" class="promotion__item-icon-link promotion__item-icon-link--violet"><img src="http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/arch.png" alt="" class="promotion__item-icon"></a>
+                                    </div>
+                                    <div class="promotion__item-infor">
+                                        <h3 class="promotion__item-place">San Francisco</h3>
+                                        <a href="" class="promotion__item-location">
+                                            <img class="location-pin-icon" src="./assets/img/icon-pin-grey.png" alt="">
+                                            <h5>
+                                                United States
+                                            </h5>
+                                        </a>
+                                        <div class="promotion__item-tag">
+                                            <div class="promotion__item-tag-links">
+                                                <a href="" class="promotion__item-tag-link">SPORT</a>
+                                                <div class="promotion__item-tag-with-count">
+                                                    <a href="" class="promotion__item-tag-link">RELAX </a>
+                                                    <span class="bacground-color-violet">
+                                                        + 1
+                                                        <div class="promotion__typology-dropdown">
+                                                            <div class="triangle-typology"></div>
+                                                            <a href="" class="promotion__typology-doropdown-link">Sport</a>
+                                                        </div>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <h2 class="promotion__item-tag-price">
+                                                <span>400</span>
+                                                <span>$</span>
+                                            </h2>
+                                        </div>
+                                        <div class="promotion__item-preview">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut efficitur ante. Donec dapibus dictum scelerisque.</p>
+                                        </div>
+                                        <a href="" class="promoiton__details-btn bacground-color-violet">DETAILS</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="grid wide">
+                <div class="row footer__heading-with-send-btn">
+                    <div class="col l-4 m-12 c-12">
+                        <h3 class="footer__sub-heading">KEEP IN TOUCH</h3>
+                        <h2 class="footer__heading">Travel with Us</h2>
+                    </div>
+                    <div class="col l-4 m-12 c-12">
+                        <form action="" class="footer__form">
+                            <input type="email" name="" id="" class="footer__input-email">
+                            <input type="submit" value="SEND" class="footer__send-btn">
+                        </form>
+                    </div>
+                </div>
+                <div class="footer-about">
+                    <div class="row footer-about__wrapper">
+                        <div class="col l-6 m-12 c-12 footer-about__introduce">
+                            <div class="footer-about__logo">
+                                <img src="./assets/img/logo-color.png" alt="" class="footer-about__logo-img">
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut diam et nibh <u>condimentum</u> venenatis eu ac magnasin.
+                                Quisque interdum est mauris, eget ullamcorper.
+                            </p>
+                            <ul class="footer-about__socials-list">
+                                <li><a href="" class="footer-about__social-link"><img src="./assets/img/socials/twitter.png" alt=""></a></li>
+                                <li><a href="" class="footer-about__social-link"><img src="./assets/img/socials/youtube.png" alt=""></a></li>
+                                <li><a href="" class="footer-about__social-link"><img src="./assets/img/socials/facebook.png" alt=""></a></li>
+                                <li><a href="" class="footer-about__social-link"><img src="./assets/img/socials/vimeo.png" alt=""></a></li>
+                            </ul>
+                        </div>
+                        <div class="col l-2 m-6 c-12">
+                            <h6 class="footer-about__heading">OUR AGENCY</h6>
+                            <ul class="footer-about__list">
+                                <li><img src="./assets/img/right-arrow.png" class="footer-about__right-arrow-icon" alt="">Services</li>
+                                <li><img src="./assets/img/right-arrow.png" class="footer-about__right-arrow-icon" alt="">Insurancee</li>
+                                <li><img src="./assets/img/right-arrow.png" class="footer-about__right-arrow-icon" alt="">Agency</li>
+                                <li><img src="./assets/img/right-arrow.png" class="footer-about__right-arrow-icon" alt="">Tourism</li>
+                                <li><img src="./assets/img/right-arrow.png" class="footer-about__right-arrow-icon" alt="">Payment</li>
+                            </ul>
+                        </div>
+                        <div class="col l-2 m-6 c-12">
+                            <h6 class="footer-about__heading">PARTNERS</h6>
+                            <ul class="footer-about__list">
+                                <li><img src="./assets/img/right-arrow.png" class="footer-about__right-arrow-icon" alt="">Booking</li>
+                                <li><img src="./assets/img/right-arrow.png" class="footer-about__right-arrow-icon" alt="">RentalCar</li>
+                                <li><img src="./assets/img/right-arrow.png" class="footer-about__right-arrow-icon" alt="">HostelWorld</li>
+                                <li><img src="./assets/img/right-arrow.png" class="footer-about__right-arrow-icon" alt="">Trivago</li>
+                                <li><img src="./assets/img/right-arrow.png" class="footer-about__right-arrow-icon" alt="">TripAdvior</li>
+                            </ul>
+                        </div>
+                        <div class="col l-2 m-6 c-12">
+                            <h6 class="footer-about__heading">LAST MINUTE</h6>
+                            <ul class="footer-about__list">
+                                <li><img src="./assets/img/right-arrow.png" class="footer-about__right-arrow-icon" alt="">London</li>
+                                <li><img src="./assets/img/right-arrow.png" class="footer-about__right-arrow-icon" alt="">California</li>
+                                <li><img src="./assets/img/right-arrow.png" class="footer-about__right-arrow-icon" alt="">Indonesia</li>
+                                <li><img src="./assets/img/right-arrow.png" class="footer-about__right-arrow-icon" alt="">Europe</li>
+                                <li><img src="./assets/img/right-arrow.png" class="footer-about__right-arrow-icon" alt="">Oceania</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__end-wrapper">
+                    <div class="row no-gutters">
+                        <div class="col l-6">
+                            <h6>THE BEST WORDPRESS TRAVEL THEME</h6>
+                        </div>
+
+                        <div class="col l-6">
+                            <h6 class="footer__copyright">COPYRIGHT NICDARK THEMES 2018</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
